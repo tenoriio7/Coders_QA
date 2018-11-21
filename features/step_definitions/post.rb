@@ -1,10 +1,10 @@
 Dado(/^que envie as informações para o endpoint clientes$/) do
     @contatos = {
-        "nome": "Danilo",
-        "cpf": "0123.456.689-2",
-        "endereco": "Rua Teste dos teste 3",
-        "usuario": "Danilopolicarpo",
-        "senha": "1234567"
+        "id": 1,
+        "nome": "Maria",
+        "cpf": "XXXXXXXX",
+        "sexo": "Feminino",
+        "altura": 1.75
       }.to_json
 
 end

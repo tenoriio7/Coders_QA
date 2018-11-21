@@ -1,6 +1,3 @@
-
-
-
 Dado(/^que tenho um endpoint clientes$/) do
   # lista para o endpoint clientes em endpoints.json
 end
