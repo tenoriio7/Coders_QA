@@ -1,20 +1,18 @@
 {
   "clientes": [
     {
+      "id": 2,
+      "nome": "carlos",
+      "cpf": "123.456.789-00",
+      "sexo": "Feminino",
+      "altura": 1.75
+    },
+    {
       "id": 1,
       "nome": "Maria",
       "cpf": "XXXXXXXX",
       "sexo": "Feminino",
-      "usuario": "usuario",
       "altura": 1.75
-    },
-    {
-      "nome": "Danilo",
-      "cpf": "0123.456.689-2",
-      "endereco": "Rua Teste dos teste 3",
-      "usuario": "Danilo",
-      "senha": "1234567",
-      "id": 2
     }
   ]
 }

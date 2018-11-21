@@ -1,6 +1,6 @@
 Dado(/^que envie as informações para deletar$/) do
     @contatos_delete = {
-        "id": 2
+        "id": 1
       }.to_json
 end
 
@@ -13,7 +13,6 @@ Quando(/^realizar uma requisição DELETE para o endpoint "([^"]*)"$/) do |endpo
 end
 
 Entao("retorna a lista de clientes") do 
-    binding.pry
     expect(@response.code).to eq 404
     expect(@response.size).to eq 0
-  end
+end
