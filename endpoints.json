@@ -1,0 +1,12 @@
+{
+  "clientes": {
+  
+      "id": 1,
+      "nome": "Maria",
+      "cpf": "XXXXXXXX",
+      "sexo": "Feminino",
+      "rg": "XXXXXXXXXXx",
+      "altura": 1.75
+
+  }
+}
