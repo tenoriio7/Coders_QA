@@ -11,12 +11,11 @@ end
 
 Entao(/^retorna a lista com as informacoes dos clientes$/) do
   @validator=Helper.new
-  @validator.validation_of_type @response["id"], Fixnum , "id" , 1
-  @validator.validation_of_type @response["nome"], String , "nome" , "Maria"
-  @validator.validation_of_type @response["cpf"], String , "cpf" , "XXXXXXXX"
-  @validator.validation_of_type @response["sexo"], String , "sexo" , "Feminino"
-  @validator.validation_of_type @response["rg"], String , "rg" , "XXXXXXXXXXx"
-  @validator.validation_of_type @response["altura"], Float , "altura" , 1.75
+  @validator.validation_of_type @response [0] ["id"], Fixnum , "id" , 1
+  @validator.validation_of_type @response [0] ["nome"], String , "nome" , "Maria"
+  @validator.validation_of_type @response [0] ["cpf"], String , "cpf" , "XXXXXXXX"
+  @validator.validation_of_type @response [0] ["sexo"], String , "sexo" , "Feminino"
+  @validator.validation_of_type @response [0] ["altura"], Float , "altura" , 1.75
 
 end
 

@@ -5,14 +5,15 @@ Dado(/^que envie as informações para deletar$/) do
 end
 
 Quando(/^realizar uma requisição DELETE para o endpoint "([^"]*)"$/) do |endpoint|
-    @response = HTTParty.delete 'http://localhost:3000/clientes/',
+    @response = HTTParty.delete 'http://localhost:3000/clientes/1',
+    :body => @contatos_delete,
     :headers => {
       "Content-Type" => 'application/json'
     }
 end
 
 Entao("retorna a lista de clientes") do 
-
+    binding.pry
     expect(@response.code).to eq 404
     expect(@response.size).to eq 0
   end
