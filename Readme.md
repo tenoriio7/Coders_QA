@@ -1,7 +1,7 @@
 Projeto usado para apresentação do Coders
 Foco em passagem de conhecimento em como realizar testes de serviço
 
-## ## Passo a Passo
+## Passo a Passo
 
 Abra o terminal e execute o comando abaixo :
 ```
