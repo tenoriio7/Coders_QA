@@ -2,6 +2,7 @@
 
 Funcionalidade: Utilizar o verbo PUT
 
+@put
 Cenario: Realizar uma requisição PUT com sucesso
 
   Dado que altero as informações do endpoint clientes

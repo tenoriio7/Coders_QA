@@ -2,6 +2,7 @@
 
 Funcionalidade: Utilizar o verbo DELETE
 
+@delete
 Cenario: Realizar uma requisição DELETE com sucesso
 
   Dado que envie as informações para deletar 

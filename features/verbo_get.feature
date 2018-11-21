@@ -2,6 +2,7 @@
 
 Funcionalidade: Utilizar o verbo GET
 
+@get
 Cenario: Realizar uma requisição GET com sucesso
 
   Dado que tenho um endpoint clientes
