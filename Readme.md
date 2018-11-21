@@ -1,4 +1,4 @@
-Projeto usado para apresentação do Coders
+Projeto usado para apresentação do Coders on Beers de QA da Concrete no dia 21/11
 Foco em passagem de conhecimento em como realizar testes de serviço
 
 ## Passo a Passo
